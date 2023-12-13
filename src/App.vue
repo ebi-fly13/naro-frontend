@@ -9,6 +9,8 @@
         <router-link to="/login">Login</router-link>
         |
         <router-link to="/select">Select</router-link>
+        |
+        <router-link to="/country">Country</router-link>
       </header>
 
       <router-view />
