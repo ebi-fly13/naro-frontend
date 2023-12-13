@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage.vue'
 import NotFound from './pages/NotFound.vue'
 import PingPage from './pages/PingPage.vue'
 import LoginPage from './pages/LoginPage.vue'
+import LogoutPage from './pages/LogoutPage.vue'
 import CityPage from './pages/CityPage.vue'
 import SelectPage from './pages/SelectPage.vue'
 import CountryList from './pages/CountryList.vue'
@@ -12,6 +13,7 @@ const routes = [
   { path: '/', name: 'home', component: HomePage, meta: { isPublic: true } },
   { path: '/ping', name: 'ping', component: PingPage },
   { path: '/login', name: 'login', component: LoginPage, meta: { isPublic: true } },
+  { path: '/logout', name: 'logout', component: LogoutPage },
   { path: '/city/:cityName', name: 'city', component: CityPage, props: true },
   { path: '/select', name: 'select', component: SelectPage },
   { path: '/country', name: 'country', component: CountryList },

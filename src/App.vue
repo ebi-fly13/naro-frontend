@@ -11,6 +11,8 @@
         <router-link to="/select">Select</router-link>
         |
         <router-link to="/country">Country</router-link>
+        |
+        <router-link to="/logout">Logout</router-link>
       </header>
 
       <router-view />
